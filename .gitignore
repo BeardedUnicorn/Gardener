@@ -7,6 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Local environment and generated artifacts
+.env
+.env.*
+!.env.example
+coverage
+*.tsbuildinfo
+repomix-output.md
+src-tauri/target/
+src-tauri/gen/
+
 node_modules
 dist
 dist-ssr
